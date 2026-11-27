@@ -2,7 +2,9 @@
 name = "lain-bot"
 version = "0.1.0"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "fluxer-py>=0.4.2",
+]
 
 [tool.ruff]
 line-length = 120
